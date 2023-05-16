@@ -1,0 +1,86 @@
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+.master-container {
+  display: flex;
+  margin-top: 15px;
+
+}
+.blog-column  {
+  /* width: 70%; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 10px 150px;
+}
+.site-name {
+  text-transform: uppercase;
+}
+.blog-section {
+  width: 450px;
+  background-color: white;
+  box-shadow: 4px 4px 4px ;
+  padding-left:15px ;
+  padding-right: 15px;
+}
+.blog-title {
+  color: blue;
+}
+.site-name {
+margin: 10px 70px;
+letter-spacing: 1px;
+color: darkblue;
+font-family: fantasy;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+
+nav ul  {
+list-style: none;
+display: flex;
+gap: 50px;
+margin-right: 200px;
+}
+nav ul li:hover a{
+  color: darkblue;
+  background-color: aliceblue;
+
+  }
+
+nav ul li a {
+  font-size: 20px;
+  background-color: rgb(211, 199, 199);
+  padding:6px 12px ;
+  border-radius:5px ;
+  color: rgb(92, 92, 151);
+}
+
+.highlights-section{
+  background-color: white;
+  box-shadow: 4px 4px ;
+  border:1px solid;
+  margin-top: 15px;
+  margin-left: -80px;
+  height:400px ;
+  width: 300px;
+  padding-left:20px ;
+}
+.image {
+  height: 40px;
+  width: ;
+  border-radius: 50%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 20px;
+  align-items: center;
+  background-color: antiquewhite;
+}
